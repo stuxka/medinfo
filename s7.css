@@ -1,0 +1,38 @@
+body{
+    background-color: azure;
+    color: darkslateblue;
+    margin: 5px;
+    padding: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header,
+footer {
+    text-align: center;
+    background-color: gainsboro;
+}
+
+p {
+    text-align: justify;
+    text-indent: 8ch;
+}
+
+h2,
+h3,
+h4 {
+    color:crimson;
+    text-decoration-line: underline;
+}
+
+.letter1 {
+    color: black;
+    text-decoration-line: underline;
+    font-size: 120%;
+}
+p::first-letter {
+    font-size: 120%;
+    color:blueviolet;
+    text-decoration-line: underline;
+}
+section:hover {
+    background-color: antiquewhite;
+}
